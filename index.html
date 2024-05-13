@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 123 </title>
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="canvas.css">
+    <link rel="stylesheet" href="typo_android.css">
+    <!-- <link rel="stylesheet" href="typo_perfect4th.css"> -->
+
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-outline-rounded.css'> -->
+    <script defer src="swipe.js"></script>
+</head>
+<body>
+
+
+    <div class="hide"></div>
+    <div class="container">
+        <div class="header" id="header_main">
+            <i class="header_back fi fi-rr-arrow-small-left"></i>
+            <div class="header_title"> АО Геоспецстрой</div>
+            <i class="header_save fi fi-rs-disk"></i>
+        </div>
+        <div class="content" id="content_main">
+            <div class="menu">
+                <div class="menu_item menu_item_thin" id="presets">
+                    <!-- <i class="fi fi-sr-input-numeric"></i> -->
+                    <p class="title_s"> Силикатный пр-д</p>
+                    <!-- <i class="fi fi-rr-list-check"></i> -->
+                    <!-- <p class="menu_item_name label_l">Мои списки</p> -->
+                    <p class="title_s">25.04.2024</p>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu_item menu_item_thin" id="presets">
+                    <!-- <i class="fi fi-sr-input-numeric"></i> -->
+                    <p class="title_s"> Заполнить отчёт </p>
+                    <!-- <i class="fi fi-rr-list-check"></i> -->
+                    <!-- <p class="menu_item_name label_l">Мои списки</p> -->
+                    <!-- <p class="title_s">Далее</p> -->
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slide_container">
+                    <div class="tasks" id="today_tasks">
+                        <div class="tasks_header title_m">
+                            <div class="tasks_header_left">
+                                <i class="fi fi-rr-receipt"></i>
+                                <!-- <i class="fi fi-ss-flame"></i> -->
+                                <p>04.2024. Учёт рабочего времени</p>
+                            </div>
+                            <div class="tasks_header_right title_s">
+                                <p>Изменить</p>
+                            </div>
+
+                        </div>
+                        <div class="tasks_list">
+                            <div class="task_item">
+                                <div class="task_item_text">
+                                    <p class="task_item_header nomargin title_m">Захаров Дмитрий Алексеевич</p>
+                                    <!-- <p class="task_item_info body_s"><span>25.04.2024</span> <br>и еще 3 даты</p> -->
+                                    <p class="task_item_info label_s">Дней: 8</p>
+                                    <p class="task_item_info label_s">Дежурство, Замывка, Монтаж</p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m">Якубенко Владислав Игоревич</p>
+                                    <p class="task_item_info label_s">Дней: 12</p>
+                                    <p class="task_item_info label_s">Дежурство</p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m">Мухатгалиев Якубджон Джамшут-оглы</p>
+                                    <p class="task_item_info label_s">Дней: 24</p>
+                                    <p class="task_item_info label_s">Дежурство, Монтаж</p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="slide_container">
+                    <div class="tasks" id="today_tasks">
+                        <div class="tasks_header title_m">
+                            <div class="tasks_header_left">
+                                <i class="fi fi-rr-receipt"></i>
+                                <!-- <i class="fi fi-ss-flame"></i> -->
+                                <p>25.04.2024. Выполненные работы</p>
+                            </div>
+                            <div class="tasks_header_right title_s">
+                                <p>Изменить</p>
+                            </div>
+
+                        </div>
+                        <div class="tasks_list">
+                            <div class="task_item">
+                                <div class="task_item_text">
+                                    <p class="task_item_header nomargin title_m msg_task">Погрузо-разгрузочные работы, работа с манипулятором, поддержание порядка на стройплощадке, прогрев сводов ОМ3, ОМ5, стен ОМ6</p>
+                                    <!-- <p class="task_item_info body_s"><span>25.04.2024</span> <br>и еще 3 даты</p> -->
+                                    <p class="task_item_info label_s">Объем: 8 / 146 / 286 м3 </p>
+                                    <p class="task_item_info label_s"></p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Армирование свода ОМ2, в т.ч. монтаж опалубки (захватка №1-2)</p>
+                                    <p class="task_item_info label_s">Объем: 120 / 1546 / 1298 м3 </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Бетонирование свода Ом2 (захватка №1-2)</p>
+                                    <p class="task_item_info label_s">Объем: 80 / 120 / 2247 м3 </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide_container">
+                    <div class="tasks" id="today_tasks">
+                        <div class="tasks_header title_m">
+                            <div class="tasks_header_left">
+                                <i class="fi fi-rr-receipt"></i>
+                                <!-- <i class="fi fi-ss-flame"></i> -->
+                                <p>25.04.2024. Показатели системы</p>
+                            </div>
+                            <div class="tasks_header_right title_s">
+                                <p>Изменить</p>
+                            </div>
+
+                        </div>
+                        <div class="tasks_list">
+                            <div class="task_item">
+                                <div class="task_item_text">
+                                    <p class="task_item_header nomargin title_m msg_task">УГВ</p>
+                                    <!-- <p class="task_item_info body_s"><span>25.04.2024</span> <br>и еще 3 даты</p> -->
+                                    <p class="task_item_info label_s">Отметка: достигнута </p>
+                                    <p class="task_item_info label_s"></p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Дебит</p>
+                                    <p class="task_item_info label_s">Средний: 286 м3/ч </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Установки</p>
+                                    <p class="task_item_info label_s">8 установок</p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Насосы</p>
+                                    <p class="task_item_info label_s">26 насосов в работе</p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="slide_container">
+                    <div class="tasks" id="today_tasks">
+                        <div class="tasks_header title_m">
+                            <div class="tasks_header_left">
+                                <i class="fi fi-rr-receipt"></i>
+                                <!-- <i class="fi fi-ss-flame"></i> -->
+                                <p>25.04.2024. Техника</p>
+                            </div>
+                            <div class="tasks_header_right title_s">
+                                <p>Изменить</p>
+                            </div>
+
+                        </div>
+                        <div class="tasks_list">
+                            <div class="task_item">
+                                <div class="task_item_text">
+                                    <p class="task_item_header nomargin title_m"> Кран 25т </p>
+                                    <!-- <p class="task_item_info body_s"><span>25.04.2024</span> <br>и еще 3 даты</p> -->
+                                    <p class="task_item_info label_s">8 часов </p>
+                                    <p class="task_item_info label_s"></p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m">JCB 3600x</p>
+                                    <p class="task_item_info label_s">12 часов </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m">Кран 600т</p>
+                                    <p class="task_item_info label_s">11 часов </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slide_container">
+                    <div class="tasks" id="today_tasks">
+                        <div class="tasks_header title_m">
+                            <div class="tasks_header_left">
+                                <i class="fi fi-rr-receipt"></i>
+                                <!-- <i class="fi fi-ss-flame"></i> -->
+                                <p>25.04.2024. Расходование</p>
+                            </div>
+                            <div class="tasks_header_right title_s">
+                                <p>Изменить</p>
+                            </div>
+
+                        </div>
+                        <div class="tasks_list">
+                            <div class="task_item">
+                                <div class="task_item_text">
+                                    <p class="task_item_header nomargin title_m msg_task">Бентонит</p>
+                                    <!-- <p class="task_item_info body_s"><span>25.04.2024</span> <br>и еще 3 даты</p> -->
+                                    <p class="task_item_info label_s">Расход: 5 тонн </p>
+                                    <p class="task_item_info label_s"></p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Дизель</p>
+                                    <p class="task_item_info label_s">Расход: 60 литров </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                            <div class="task_item">
+                                <div class="task_item_text ">
+                                    <p class="task_item_header nomargin title_m msg_task">Бензин</p>
+                                    <p class="task_item_info label_s">Расход: 200 литров </p>
+                                </div>
+                                <i class="task_item_arr fi fi-br-angle-small-right"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="hide"</div>
+    <div class="nav_footer">
+        <div class="nav_main" id="nav_main">
+            <div class="menu menu_s">
+                <!-- <div class="menu_item" id="today_tasks">
+                    <i class="fi fi-sr-input-numeric"></i>
+                    <i class="fi fi-ss-flame"></i>
+                    <p class="menu_item_name title_s">Задачи</p>
+                </div> -->
+                <div class="menu_item_s" id="presets">
+                    <i class="fi fi-sr-input-numeric"></i>
+                    <!-- <i class="fi fi-rr-list-check"></i> -->
+                    <!-- <p class="menu_item_name label_l">Мои списки</p> -->
+                </div>
+                <div class="menu_item_s" id="report_corrections">
+                    <i class="fi fi-sr-input-numeric"></i>
+                    <!-- <p class="menu_item_name label_l">Корректировка отчётов</p> -->
+                </div>
+                <div class="menu_item_s" id="get_reports">
+                    <i class="fi fi-sr-input-numeric"></i>
+                    <!-- <i class="fi fi-rr-receipt"></i> -->
+                    <!-- <p class="menu_item_name label_l">История отчётов</p> -->
+                </div>
+                <div class="menu_item_s" id="personal">
+                    <i class="fi fi-sr-input-numeric"></i>
+                    <!-- <p class="menu_item_name label_l">Настройки</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="nav_current" id="nav_tasks"></div>
+    </div>
+
+</body>
+</html>

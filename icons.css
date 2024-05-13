@@ -1,0 +1,51 @@
+.fi {
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+
+}
+.fi-rs-disk {
+    display: block;
+    background-image: url(./icons/disk.svg);
+    height: 26px;
+
+}
+.fi-rr-receipt {
+    display: block;
+    background-image: url(./icons/receipt.svg);
+    height: 26px;
+}
+.fi-rr-arrow-small-left {
+    display: block;
+    background-image: url(./icons/arrow-small-left.svg);
+    height: 26px;
+}
+
+.fi-br-angle-small-right {
+    display: block;
+    background-image: url(./icons/angle-small-right.svg);
+    height: 18px;
+
+}
+.fi-sr-input-numeric {
+    display: block;
+    background-image: url(./icons/input-numeric.svg);
+    height: 34px;
+    fill: rgb(177, 177, 177);
+}
+/* .fi-br-align-justify {
+    display: block;
+    background-image: url(/icons/align-justify.svg);
+    height: 50px;
+} */
+.fi-rr-list-check {
+    height: 36px;
+}
+
+.task_item_arr {
+    margin-left: auto;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+}

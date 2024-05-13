@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Roboto", "Open Sans", "Noto Sans", "Roboto Serif", "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+    font-size: 1.333rem;
+}
+/* "wght" — font-weight;
+"wdth" — font-stretch;
+"slnt" — font-style: oblique + угол наклона;
+"ital" — font-style: italic;
+"opsz" — font-optical-sizing. */
+
+.display_l {
+    font-weight: 400;
+    font-size: 4.209rem;
+    letter-spacing: -0.25px;
+    line-height: 64px;
+}
+.display_m {
+    font-weight: 400;
+    font-size: 3.157rem;
+    letter-spacing: 0;
+    line-height: 52px;
+}
+.display_s {
+    font-weight: 400;
+    font-size: 2.369rem;
+    letter-spacing: 0px;
+    line-height: 44px;
+}
+
+.headline_l {
+    font-weight: 400;
+    font-size: 2.369rem;
+    letter-spacing: 0px;
+    line-height: 40px;
+}
+.headline_m {
+    font-weight: 400;
+    font-size: 1.777rem;
+    letter-spacing: 0px;
+    line-height: 36px;
+}
+.headline_s {
+    font-weight: 400;
+    font-size: 1.333rem;
+    letter-spacing: 0px;
+    line-height: 32px;
+}
+
+
+.title_l {
+    font-weight: 400;
+    font-size: 1.777rem;
+    letter-spacing: 0px;
+    line-height: 28px;
+}
+.title_m {
+    font-weight: 500;
+    font-size: 1.333rem;
+    letter-spacing: 0.15px;
+    line-height: 24px;
+}
+.title_s {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}
+
+
+.body_l {
+    font-weight: 400;
+    font-size: 1.333rem;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+.body_m {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+}
+.body_s {
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: 0.4px;
+    line-height: 1.333rem;
+}
+
+
+.label_l {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    /* line-height: 20px; */
+    line-height: 1.333rem;
+}
+.label_lb {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}
+.label_m {
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    line-height: 1.333rem;
+}
+.label_mb {
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    line-height: 1.333rem;
+}
+.label_s {
+    font-weight: 500;
+    font-size: 0.563rem;
+    letter-spacing: 0.5px;
+    line-height: 1.333rem;
+}
